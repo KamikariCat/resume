@@ -271,3 +271,9 @@ nav button:after {
 @media (max-width: 350px) {
     .m350 { display: none; }
 }
+
+@media (max-width: 380px) {
+    .skill_item {
+        margin-right: 0;
+    }
+}

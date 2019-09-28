@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea417e39-7eed-4028-b011-ed7aca9cd362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569617148621</updated>
       <workItem from="1569617149782" duration="13365000" />
-      <workItem from="1569669351532" duration="4187000" />
+      <workItem from="1569669351532" duration="4441000" />
     </task>
     <task id="LOCAL-00001" summary="resume">
       <created>1569676348255</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569676348255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="avatar">
+      <created>1569676630595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569676630595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="resume" />
+    <MESSAGE value="avatar" />
+    <option name="LAST_COMMIT_MESSAGE" value="avatar" />
   </component>
 </project>
