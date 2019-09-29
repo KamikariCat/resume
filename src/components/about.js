@@ -1,6 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+const initialSocialImages = [
+    {
+        image: '/linkedin.svg',
+        link: 'https://www.linkedin.com/in/kamikari/',
+        alt: 'linkedin'
+    },
+    {
+        image: '/telegram.svg',
+        link: 'tg://resolve?domain=iamnori>',
+        alt: 'telegram'
+    },
+    {
+        image: '/github.svg',
+        link: 'https://github.com/KamikariCat',
+        alt: 'github'
+    }];
 
 export default function About (props) {
+    const [socialImages] = useState(initialSocialImages);
     const resumeEn = [
         `Now I’m working in company like a front-end developer. There i work with  form constructor. While develop use Vue/Vuex. Have a year of experience using JavaScript. Active using version-control system - Git. Also have an experience using docker. While work got development skills with D3(made some charts). Besides Vue i learn React in i sheaf Redux. Wanna use it like main developing  set.`,
         `Sure have good knowledge with HTML & CSS. Alsow worked with SCSS and SASS (prefer Stylus). Familiar with bootstrap & Foundation.`,
@@ -23,6 +41,15 @@ export default function About (props) {
         <div className="column about">
             <span className="header-text mobile_none">{!props.ru ? 'About' : 'O себе'}</span>
             <div className="about_text">{ props.ru ? resumeRu.map((p, i) => <p key={i}>{p}</p>) : resumeEn.map((p, i) => <p key={i}>{p}</p>) }</div>
+            <div className="social_button_mobile">
+                {socialImages.map((element, index) =>
+                    <div key={index} className="social_button mobile_block">
+                        <a href={element.link}>
+                            <img src={element.image} alt={element.alt}/>
+                        </a>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }

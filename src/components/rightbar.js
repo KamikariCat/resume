@@ -33,7 +33,7 @@ export default function RightBar () {
                     {/*<button>Contacts</button>*/}
                     <div className="social_buttons">
                         {socialImages.map((element, index) =>
-                            <div key={index} className="social_button">
+                            <div key={index} className="social_button mobile_none">
                                 <a href={element.link}>
                                     <img src={element.image} alt={element.alt}/>
                                 </a>

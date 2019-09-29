@@ -19,6 +19,7 @@
 }
 
 .lang {
+    z-index: 100;
     position: absolute;
     width: 100%;
     top: 0;
@@ -122,6 +123,10 @@
 .userName {
     padding-right: 30px;
 }
+.userName .header-text {
+    font-size: 24px;
+    width: 200px;
+}
 .userName span {
     display: block;
     text-align: right;
@@ -166,10 +171,15 @@ nav button:after {
     background-repeat: no-repeat;
 }
 
-.social_buttons {
+.social_buttons, .social_button_mobile {
     display: flex;
     justify-content: center;
 }
+
+.social_button_mobile {
+    margin-bottom: 15px;
+}
+
 .social_button {
     width: 50px;
     height: 50px;
@@ -182,8 +192,8 @@ nav button:after {
 }
 
 .about_text {
-    margin-top: 50px;
     max-width: 500px;
+    margin-top: 60px;
     font-family: Roboto, serif;
     font-style: normal;
     font-weight: normal;
@@ -230,8 +240,13 @@ nav button:after {
     .skill_item {
         margin-right: -5px;
     }
+    .about {
+        margin-top: 60px;
+    }
     .about_text {
-        padding-top: 50px;
+        height: 100%;
+        padding-bottom: 15px;
+        margin-top: 0;
         padding-left: 15px;
         padding-right: 15px;
         flex-grow: 2;
@@ -260,6 +275,10 @@ nav button:after {
     }
 }
 @media (max-width: 450px) {
+    .lang {
+        justify-content: flex-start;
+        padding-left: 110px;
+    }
     .fz450 {
         font-size: 14px !important;
     }
@@ -271,6 +290,10 @@ nav button:after {
 }
 @media (max-width: 350px) {
     .m350 { display: none; }
+    .lang {
+        justify-content: flex-start;
+        top: 50px;
+    }
 }
 
 @media (max-width: 380px) {
