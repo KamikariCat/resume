@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: linear-gradient(236.31deg, #FF4E4E 0%, #4E80FF 100%);
 }
 .column {
     height: 100%;
