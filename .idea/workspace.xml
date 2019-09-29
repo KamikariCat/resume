@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea417e39-7eed-4028-b011-ed7aca9cd362" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rightbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rightbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +82,7 @@
       <workItem from="1569617149782" duration="13365000" />
       <workItem from="1569669351532" duration="5123000" />
       <workItem from="1569679546685" duration="1753000" />
-      <workItem from="1569757603633" duration="2888000" />
+      <workItem from="1569757603633" duration="3009000" />
     </task>
     <task id="LOCAL-00001" summary="resume">
       <created>1569676348255</created>
@@ -116,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569758291714</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="style coorections">
+      <created>1569760533464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569760533464</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +143,7 @@
     <MESSAGE value="avatar" />
     <MESSAGE value="margin" />
     <MESSAGE value="resume text" />
-    <option name="LAST_COMMIT_MESSAGE" value="resume text" />
+    <MESSAGE value="style coorections" />
+    <option name="LAST_COMMIT_MESSAGE" value="style coorections" />
   </component>
 </project>
