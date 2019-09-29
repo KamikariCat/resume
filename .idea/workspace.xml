@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea417e39-7eed-4028-b011-ed7aca9cd362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/leftbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leftbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/rightbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rightbar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1569617148621</updated>
       <workItem from="1569617149782" duration="13365000" />
-      <workItem from="1569669351532" duration="4441000" />
+      <workItem from="1569669351532" duration="5123000" />
+      <workItem from="1569679546685" duration="1753000" />
+      <workItem from="1569757603633" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="resume">
       <created>1569676348255</created>
@@ -96,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569676630595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="margin">
+      <created>1569676889124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569676889124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resume" />
     <MESSAGE value="avatar" />
-    <option name="LAST_COMMIT_MESSAGE" value="avatar" />
+    <MESSAGE value="margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="margin" />
   </component>
 </project>

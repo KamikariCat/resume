@@ -23,7 +23,7 @@ export default function RightBar () {
         <div className="column column_right">
             <div className="column_container jcfe">
                 <div className="userName">
-                    <span className="header-text">Nori</span>
+                    <span className="header-text">Matiichyk Maksim</span>
                     <span className="subheader-text">Web developer</span>
                 </div>
                 <img className="avatar" src="/avatar.jpg" alt=""/>

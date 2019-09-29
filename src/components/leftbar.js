@@ -15,11 +15,11 @@ const initialSkillBase = [
     {name: 'D3', colors: ['rgba(255, 122, 0, 0.5)', 'rgba(255, 78, 78, 0.5)'], progress: 55, learning: true},
 ];
 
-export default function LeftBar () {
+export default function LeftBar (props) {
     const [skillBase] = useState(initialSkillBase);
     return (
         <div className="column column_left m350">
-            <span className="header-text mobile_none">Skills</span>
+            <span className="header-text mobile_none">{props.ru ? 'Навыки' : 'Skills'}</span>
             <div className="column_container fs800">
                 <div className="skill_box">
                     {R.filter(R.propEq('learning', false), skillBase).map((element, index) =>
@@ -30,8 +30,6 @@ export default function LeftBar () {
                     )}
                 </div>
             </div>
-
-            <span className="header-text mobile_none">Skills</span>
             <div className="column_container fs800">
                 <div className="skill_box">
                     {R.filter(R.propEq('learning', true), skillBase).map((element, index) =>
