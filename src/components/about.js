@@ -20,12 +20,12 @@ const initialSocialImages = [
 export default function About (props) {
     const [socialImages] = useState(initialSocialImages);
     const resumeEn = [
-        `Now I’m working in company like a front-end developer. There i work with  form constructor. While develop use Vue/Vuex. Have a year of experience using JavaScript. Active using version-control system - Git. Also have an experience using docker. While work got development skills with D3(made some charts). Besides Vue i learn React in i sheaf Redux. Wanna use it like main developing  set.`,
-        `Sure have good knowledge with HTML & CSS. Alsow worked with SCSS and SASS (prefer Stylus). Familiar with bootstrap & Foundation.`,
-        `Earlier i used to work with PHP and Laravel. Made the similarity of MVC framework  in PHP(gallery). I can worth with one(i got hired like a back-end)but i dont wanna work with PHP more.`,
-        `Not in commercial development(for myself) got knowlage in NodeJS, Koa and expess. Also i know Socket.Io and MongoDB and mongoose driver. Daily i use Ramda (something like Lodash)`,
-        `Also i wrote chat bots for Discord and Telegram (JS) and several another chats using browser console and JQuery. I don’t really wanna work with one cuz i find it little bulky.`,
-        `In future i plan to be a React developer and develop as NodeJS programmer.`
+        `Now I’m working in a company as a front-end developer. There I work with form constructor. While developing use Vue/Vuex. I have a year of experience using JavaScript. Active using version-control system - Git. Also, I have experience using docker. While work got development skills with D3(made some charts). Besides Vue, I learn to React in I sheaf Redux. Wanna use it as a main developing set.`,
+        `Sure have good knowledge with HTML & CSS. I also worked with SCSS and SASS (prefer Stylus). Familiar with bootstrap & Foundation.`,
+        `Earlier I used to work with PHP and Laravel. Made the similarity of the MVC framework in PHP(gallery). I can worth with one(i got hired as a back-end)but I don't wanna work with PHP more.`,
+        `Not in commercial development(for myself) got knowledge in NodeJS, Koa, and express. Also, I know Socket.Io and MongoDB and mongoose driver. Daily I use Ramda (something like Lodash)`,
+        `Also, I wrote chatbots for Discord and Telegram (JS) and several other chats using browser console and JQuery. I don’t really wanna work with one cuz I find it a little bulky.`,
+        `In the future, I plan to be a React developer and develop as a NodeJS programmer.`
     ];
     const resumeRu = [
         `Сейчас я работаю в компании на должности фронтенд разработчика. Где работаю над конструктором форм. В работе использую Vue/Vuex. Имею год опыта работы. Ведется активная работа с системами контроля версий Git. Так же имеется небольшой опыт работы с Docker. Также получил навыки разработки графиков используя библиотеку D3. Помимо Vue изучаю React/Redux. Планирую использовать его как основную библиотеку для разработки.`,
