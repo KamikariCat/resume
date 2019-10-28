@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea417e39-7eed-4028-b011-ed7aca9cd362" name="Default Changelist" comment="" />
+    <list default="true" id="ea417e39-7eed-4028-b011-ed7aca9cd362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,6 +85,10 @@
       <workItem from="1569669351532" duration="5123000" />
       <workItem from="1569679546685" duration="1753000" />
       <workItem from="1569757603633" duration="5692000" />
+      <workItem from="1572176737965" duration="162000" />
+      <workItem from="1572176907630" duration="458000" />
+      <workItem from="1572178838590" duration="1455000" />
+      <workItem from="1572245018200" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="resume">
       <created>1569676348255</created>

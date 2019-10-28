@@ -20,7 +20,7 @@ const initialSocialImages = [
 export default function About (props) {
     const [socialImages] = useState(initialSocialImages);
     const resumeEn = [
-        `Now I’m working in a company as a front-end developer. There I work with form constructor. While developing use Vue/Vuex. I have a year of experience using JavaScript. Active using version-control system - Git. Also, I have experience using docker. While work got development skills with D3(made some charts). Besides Vue, I learn to React in I sheaf Redux. Wanna use it as a main developing set.`,
+        `Now I’m working in a company as a front-end developer. There I work with form constructor. While developing use Vue/Vuex(1 year). I have a year of experience using JavaScript. Active using version-control system - Git. Also, I have experience using docker. While work got development skills with D3(made some charts).  Besides Vue i work with React in i sheaf Redux(0.5 year).`,
         `Sure have good knowledge with HTML & CSS. I also worked with SCSS and SASS (prefer Stylus). Familiar with bootstrap & Foundation.`,
         `Earlier I used to work with PHP and Laravel. Made the similarity of the MVC framework in PHP(gallery). I can worth with one(i got hired as a back-end)but I don't wanna work with PHP more.`,
         `Not in commercial development(for myself) got knowledge in NodeJS, Koa, and express. Also, I know Socket.Io and MongoDB and mongoose driver. Daily I use Ramda (something like Lodash)`,
@@ -28,7 +28,7 @@ export default function About (props) {
         `In the future, I plan to be a React developer and develop as a NodeJS programmer.`
     ];
     const resumeRu = [
-        `Сейчас я работаю в компании на должности фронтенд разработчика. Где работаю над конструктором форм. В работе использую Vue/Vuex. Имею год опыта работы. Ведется активная работа с системами контроля версий Git. Так же имеется небольшой опыт работы с Docker. Также получил навыки разработки графиков используя библиотеку D3. Помимо Vue изучаю React/Redux. Планирую использовать его как основную библиотеку для разработки.`,
+        `Сейчас я работаю в компании на должности фронтенд разработчика. Где работаю над конструктором форм. В работе использую Vue/Vuex(год). Имею год опыта работы. Ведется активная работа с системами контроля версий Git. Так же имеется небольшой опыт работы с Docker. Также получил навыки разработки графиков используя библиотеку D3. Помимо Vue работаю с  React/Redux( пол года ).`,
         `Естественно хорошие знания html & css. Так же работал  с SCSS и SASS (предпочитаю Stylus). Знаком с Bootstrap & Foundation`,
         `Ранее изучал PHP, Laravel. Писал подобие MVC фекймворка на PHP (сайт-галерея), так что умею работать и с ними(на работу принимали как Backend разработчика) однако  в дальнейшем не хочу работать с ними.`,
         `Не в коммерческой разработке(для себя) получил навыки Node.js, Koa, Express. Также знаком с Socket.io, MongoDb и драйвером Mongoose.`,
