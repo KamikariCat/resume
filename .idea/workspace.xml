@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ea417e39-7eed-4028-b011-ed7aca9cd362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leftbar/LeftBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leftbar/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leftbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rightbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rightbar/rightbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skillbox/SkillBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skillbox/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skillbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/social/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/social/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/social/social.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/switchLangBtn/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/switchLangBtn/switchLangButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elements/HeaderText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elements/avatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elements/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elements/subHeaderText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/state/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store/actions/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store/reducers/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/leftbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/rightbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +74,16 @@
   </component>
   <component name="ProjectId" id="1RR5cgN9IdiDIOjghEaYwqef2c8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/elements" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,26 +91,18 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akira\WebstormProjects\noriresume\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NORI\Desktop\resume\src\components\switchLangBtn" />
+      <recent name="C:\Users\NORI\Desktop\resume\src\components\about" />
       <recent name="C:\Users\Akira\WebstormProjects\noriresume\public" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NORI\Desktop\resume\src\elements" />
+      <recent name="C:\Users\Akira\WebstormProjects\noriresume\public" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -71,6 +119,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,6 +138,7 @@
       <workItem from="1572176907630" duration="458000" />
       <workItem from="1572178838590" duration="1455000" />
       <workItem from="1572245018200" duration="90000" />
+      <workItem from="1600846933420" duration="8754000" />
     </task>
     <task id="LOCAL-00001" summary="resume">
       <created>1569676348255</created>
@@ -164,20 +214,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resume" />
@@ -188,5 +237,23 @@
     <MESSAGE value="Name" />
     <MESSAGE value="favicon" />
     <option name="LAST_COMMIT_MESSAGE" value="favicon" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1657" height="205" key="GridCell.Tab.0.bottom" timestamp="1600851314540">
+      <screen x="0" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1657" height="205" key="GridCell.Tab.0.bottom/1680.30.1680.1020/0.30.1680.1020@0.30.1680.1020" timestamp="1600851314540" />
+    <state width="1657" height="205" key="GridCell.Tab.0.center" timestamp="1600851314540">
+      <screen x="0" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1657" height="205" key="GridCell.Tab.0.center/1680.30.1680.1020/0.30.1680.1020@0.30.1680.1020" timestamp="1600851314540" />
+    <state width="1657" height="205" key="GridCell.Tab.0.left" timestamp="1600851314540">
+      <screen x="0" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1657" height="205" key="GridCell.Tab.0.left/1680.30.1680.1020/0.30.1680.1020@0.30.1680.1020" timestamp="1600851314540" />
+    <state width="1657" height="205" key="GridCell.Tab.0.right" timestamp="1600851314540">
+      <screen x="0" y="30" width="1680" height="1020" />
+    </state>
+    <state width="1657" height="205" key="GridCell.Tab.0.right/1680.30.1680.1020/0.30.1680.1020@0.30.1680.1020" timestamp="1600851314540" />
   </component>
 </project>
