@@ -14,7 +14,7 @@ export default () =>
               <div className="column_container jcfe">
                   <div className="userName">
                       <TextElements.HeaderText value="Max Matiichuk"/>
-                      <TextElements.SubHeaderText value="Web developer"/>
+                      <TextElements.SubHeaderText value="JavaScript developer"/>
                   </div>
                   <ImageElements.Avatar />
               </div>
